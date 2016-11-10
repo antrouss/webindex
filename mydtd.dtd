@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT businesses (business*)>
+<!ELEMENT business (categoryTitle,businessTitle,address,postalCode,phone,keywords,site)>
+<!ELEMENT categoryTitle (#PCDATA)>
+<!ELEMENT businessTitle (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT postalCode (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT keywords (#PCDATA)>
+<!ELEMENT site (#PCDATA)>

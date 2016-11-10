@@ -1,0 +1,96 @@
+#registerForm form {
+    padding: 0px auto;margin: 20px auto; float:  left;
+}
+
+.redwarning{
+    color: red;
+    font-size: small;
+}
+#leftSpace {
+    float: left;width: 500px;height: 300px; text-align: right;
+}
+
+/* TAGS */
+* {margin:0;padding:0}
+html {min-width:920px} 
+body {background:#2f373a;font-family:Arial,Helvetica,sans-serif;font-size:100%;line-height:1em;color:#4e4e4e;min-width:920px;border-top:10px solid #0c0e0e}
+object {vertical-align:top;outline:none}
+input, textarea, select {font-family:Arial,Helvetica,sans-serif;font-size:1em;vertical-align:middle;font-weight:normal}
+fieldset {border:0}
+p {margin:0;padding:0}
+img {border:0;vertical-align:top;text-align:left}
+ul, ol {list-style:none}
+/* GLOBAL */
+#header, #content, #footer {font-size:0.875em;width:920px;margin:0 auto}
+.col-1{float:left}
+/* ALIGMENT */
+.fleft {float:left}
+.fright {float:right}
+.clear {clear:both}
+.alignright {text-align:right}
+.aligncenter {text-align:center}
+.wrapper {width:100%;overflow:hidden;}
+.container {width:100%}
+/* TAILING */
+.tail-top {background:url(images/tail-top.gif) left top repeat-x #fff}
+.body-bg {background:url(images/body-bg.jpg) no-repeat center top}
+.tail-bottom {background:url(images/tail-bottom.gif) left bottom repeat-x}
+
+/* OTHER */
+p {margin-bottom:20px;line-height:1.43em}
+.p0 {margin-bottom:0}
+/* TXT, LINKS, LINES, TITLES */
+a {color:#20b7c9;outline:none}
+a:hover {text-decoration:none}
+h3 {font-size:40px;line-height:1.2em;font-weight:normal;color:#000;letter-spacing:-2px;margin-bottom:12px}
+h4 {font-size:30px;color:#000;letter-spacing:-2px;margin-bottom:16px}
+/* HEADER */
+#header {height:478px;background:url(images/header-bg.jpg) no-repeat left bottom;position:relative;z-index:2}
+#header .extra {position:absolute;right:-24px;top:113px;background:url(images/header-img.jpg);width: 314px;height: 431px;}
+#header .row-1 {color: white; height:117px;width:100%;overflow:hidden;position: relative}
+#header .row-1 .fleft {padding:24px 0 0 26px}
+#header .row-1 .fright {padding:27px 15px 0 0}
+#header .row-2 {height:68px}
+#header .row-2 ul {width:100%;position:relative;z-index:2}
+#header .row-2 ul li {float:left;text-transform:uppercase;margin-right:4px}
+#header .row-2 ul li a {color:#fff;text-decoration:none;display:block;text-align:center;padding:28px 0 24px 0;background-repeat:no-repeat;background-position:0 0}
+/* button1 */
+#header .row-2 ul li.m1 a {width:89px;background:url(images/m1.png)}
+#header .row-2 ul li.m1 a:hover,
+#header .row-2 ul li.m1 a.active {background:url(images/m1-act.png)}
+/* button2 */
+#header .row-2 ul li.m2 a {width:95px;background:url(images/m2.png);height: 28px;padding: 21% 0;}
+#header .row-2 ul li.m2 a:hover,
+#header .row-2 ul li.m2 a.active {background:url(images/m2-act.png)}
+/* button3 */
+#header .row-2 ul li.m3 a {width:117px;background:url(images/m3.png)}
+#header .row-2 ul li.m3 a:hover,
+#header .row-2 ul li.m3 a.active {background:url(images/m3-act.png)}
+/* button4 */
+#header .row-2 ul li.m4 a {width:114px;background:url(images/m4.png)}
+#header .row-2 ul li.m4 a:hover,
+#header .row-2 ul li.m4 a.active {background:url(images/m4-act.png)}
+/* button5 */
+#header .row-2 ul li.m5 a {width:123px;background:url(images/m5.png);height: 16px;padding: 21% 0;}
+#header .row-2 ul li.m5 a:hover,
+#header .row-2 ul li.m5 a.active {background:url(images/m5-act.png)}
+
+/* button6 */
+#header .row-2 ul li.m6 a {width:105px;background:url(images/m6.png);height: 24px;padding: 21% 0;}
+#header .row-2 ul li.m6 a:hover, 
+#header .row-2 ul li.m6 a.active {background:url(images/m6-act.png)}
+
+
+#header .row-3 {padding:130px 0 0 77px}
+#header .row-3 h1{color: white;font-size: 100px}
+/* CONTENT */
+#content {background:url(images/cont-tail.png) repeat-y left top;position:relative}
+#content .tail-right {background:url(images/cont-tail-right.gif) repeat-y right top}
+#content .col-1 {width:630px}
+
+/*.inner_copy, .inner_copy a {border:0;float:right;background:#f00;color:#f00;width:35%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}*/
+#content .indent {padding:33px 33px 50px 37px}
+#content .indent1 {padding-bottom:33px}
+/* FOOTER */
+#footer {height:110px;color:#fff}
+#footer .indent {padding:47px 34px 0 37px}
